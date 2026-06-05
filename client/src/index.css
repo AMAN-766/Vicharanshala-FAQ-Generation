@@ -176,3 +176,41 @@
     to { opacity: 1; transform: translateY(0); }
   }
 }
+ /* Dark Mode Styles */
+.dark {
+  background-color: #1a1a2e !important;
+  color: #e0e0e0 !important;
+}
+
+.dark body {
+  background-color: #1a1a2e !important;
+}
+
+.dark header {
+  background-color: #16213e !important;
+}
+
+.dark .glass-nav {
+  background-color: rgba(22, 33, 62, 0.95) !important;
+}
+
+.dark .bg-surface-container-lowest,
+.dark .bg-white {
+  background-color: #16213e !important;
+}
+
+.dark .bg-surface-container-low {
+  background-color: #0f3460 !important;
+}
+
+.dark .text-on-surface {
+  color: #e0e0e0 !important;
+}
+
+.dark .text-on-surface-variant {
+  color: #a0aec0 !important;
+}
+
+.dark .border-outline-variant {
+  border-color: #2d3748 !important;
+}
